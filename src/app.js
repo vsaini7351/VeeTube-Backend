@@ -64,7 +64,9 @@ import likeRouter from './routes/like.routes.js'
 
 app.use("/api/v1/like",likeRouter)
 
-
+app.get("/", (req, res) => {
+    res.send("Veetube backend is live 🚀");
+});
 
 app.use((err, req, res, next) => {
     console.error("🔥 Global Error Handler: ", err);
