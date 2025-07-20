@@ -11,7 +11,7 @@ import {deleteImageOnCloudinary, deleteVideoOnCloudinary, uploadOnCloudinary} fr
 const getAllVideos = asyncHandler(async (req, res) => {
   let {
     page = 1,
-    limit = 10,
+    limit = 5,
     query,
     sortBy = "createdAt",
     sortType = "desc",
