@@ -10,11 +10,7 @@ import { ApiError } from './ApiError.js';
 
 
 
-    // cloudinary.config({ 
-    //     cloud_name: 'dkiiiqwfi', 
-    //     api_key: '781458222793832', 
-    //     api_secret: 'dK5HuNhwVmA_2hWdqVRupAbjhco'// Click 'View API Keys' above to copy your API secret,cloudinary me mil jayegi
-    // });
+   
     
     cloudinary.config({ 
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME, 
